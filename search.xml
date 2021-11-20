@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>Hello World</title>
+      <link href="/2021/11/20/hello-world/"/>
+      <url>/2021/11/20/hello-world/</url>
+      
+        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo new <span class="token string">"My New Post"</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo server<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo generate<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo deploy<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>lsglg</title>
+      <link href="/2021/11/18/lsglg/"/>
+      <url>/2021/11/18/lsglg/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>lsglg</title>
+      <link href="/2021/11/18/title/"/>
+      <url>/2021/11/18/title/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>tiaozhanbei</title>
+      <link href="/2021/10/31/tiaozhanbei/"/>
+      <url>/2021/10/31/tiaozhanbei/</url>
+      
+        <content type="html"><![CDATA[<h2 id="大赛目的"><a href="#大赛目的" class="headerlink" title="大赛目的"></a>大赛目的</h2><ul><li>开展广泛的社会实践、深刻的社会观察</li><li>所学知识与经济社会发展紧密结合</li><li>提高创新、创意、创造、创业对的意识和能力</li></ul><pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token comment"># e1.2TempConvert.py</span>TempStr <span class="token operator">=</span> <span class="token builtin">input</span><span class="token punctuation">(</span><span class="token string">"请输入带有符号的温度值:"</span><span class="token punctuation">)</span><span class="token keyword">while</span> TempStr<span class="token punctuation">[</span><span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">]</span> <span class="token keyword">not</span> <span class="token keyword">in</span> <span class="token punctuation">[</span><span class="token string">'N'</span><span class="token punctuation">,</span> <span class="token string">'n'</span><span class="token punctuation">]</span><span class="token punctuation">:</span>    <span class="token keyword">if</span> TempStr<span class="token punctuation">[</span><span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">]</span> <span class="token keyword">in</span> <span class="token punctuation">[</span><span class="token string">'F'</span><span class="token punctuation">,</span> <span class="token string">'f'</span><span class="token punctuation">]</span><span class="token punctuation">:</span>        C <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token builtin">eval</span><span class="token punctuation">(</span>TempStr<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">:</span><span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">)</span> <span class="token operator">-</span> <span class="token number">32</span><span class="token punctuation">)</span> <span class="token operator">/</span> <span class="token number">1.8</span>        <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"转换后的温度是&#123;:.2f&#125;C"</span><span class="token punctuation">.</span><span class="token builtin">format</span><span class="token punctuation">(</span>C<span class="token punctuation">)</span><span class="token punctuation">)</span>    <span class="token keyword">elif</span> TempStr<span class="token punctuation">[</span><span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">]</span> <span class="token keyword">in</span> <span class="token punctuation">[</span><span class="token string">'C'</span><span class="token punctuation">,</span> <span class="token string">'c'</span><span class="token punctuation">]</span><span class="token punctuation">:</span>        F <span class="token operator">=</span> <span class="token number">1.8</span> <span class="token operator">*</span> <span class="token builtin">eval</span><span class="token punctuation">(</span>TempStr<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">:</span><span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">)</span> <span class="token operator">+</span> <span class="token number">32</span>        <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"转换后的温度是&#123;:.2f&#125;F"</span><span class="token punctuation">.</span><span class="token builtin">format</span><span class="token punctuation">(</span>F<span class="token punctuation">)</span><span class="token punctuation">)</span>    <span class="token keyword">else</span><span class="token punctuation">:</span>        <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"输入格式错误"</span><span class="token punctuation">)</span>    TempStr <span class="token operator">=</span> <span class="token builtin">input</span><span class="token punctuation">(</span><span class="token string">"请输入带有符号的温度值:"</span><span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><h2 id="大赛内容"><a href="#大赛内容" class="headerlink" title="大赛内容"></a>大赛内容</h2><ul><li><code>科技创新和未来产业（大数据，人工智能）</code></li><li>乡村振兴和脱贫攻坚</li><li>城市治理和社会服务</li><li>生态环保和可持续发展</li><li>文化创意和区域合作</li></ul><h2 id="评定方式"><a href="#评定方式" class="headerlink" title="评定方式"></a>评定方式</h2><ul><li>社会价值（<strong>痛点问题</strong>，<strong>给这个行业带来什么好处</strong>）</li><li>实践过程（从创意到成果，如何进行，取得哪些突破，如何迭代技术）</li><li>创新意义（<a href="">创新点，每一个点带来那些好处</a>）</li><li>发展前景（国家的发展战略，<code>国家的十四五规划开局</code>，重点内容）</li><li>团队协作  （团队成员个人信息打马赛克，不要写具体信息）</li></ul><h2 id="评定人员"><a href="#评定人员" class="headerlink" title="评定人员"></a>评定人员</h2><p>由全国组委会聘请非学校的相关领域专家学者、政府部门负责人、行业领军人物、基层优秀青年代表、知名企业家等组成。（<code>重实践</code>）</p><h2 id="参赛要求"><a href="#参赛要求" class="headerlink" title="参赛要求"></a>参赛要求</h2><blockquote><p>较高立意，符合法规，政策导向。</p></blockquote><p>已获往届“挑战杯”中国大学生创业计划比赛、“创青春”全国大学生创业大赛、“挑战杯――彩虹人生”全国职业学校创新创效创业大赛全国<code>金奖</code>（特等奖）、<code>银奖</code>(一等奖)的项目，不可重复报名。</p><h2 id="项目申报（五个组别）"><a href="#项目申报（五个组别）" class="headerlink" title="项目申报（五个组别）"></a>项目申报（五个组别）</h2><p><img src="tiaozhanbei.assets/image-20211029103642306-16356825366811.png" alt="image-20211029103642306"> <img src="tiaozhanbei.assets/image-20211029103613173-16356825366812.png" alt="image-20211029103613173"></p><p><img src="tiaozhanbei.assets/image-20211029103623158-16356825366823.png" alt="image-20211029103623158"></p><h2 id="参赛形式"><a href="#参赛形式" class="headerlink" title="参赛形式"></a>参赛形式</h2><ul><li><p>原则上不超过<code>10</code>人，指导老师原则上不超过<code>3</code>人</p></li><li><p>只可进行人员删减，<code>不可进行人员顺序调整</code>及人员添加（全国决赛）</p></li></ul><h2 id="申报书"><a href="#申报书" class="headerlink" title="申报书"></a>申报书</h2><ul><li><p>项目名称和团队名称</p></li><li><p>项目简介</p><ul><li>是什么、特征、进展</li></ul></li><li><p>社会价值</p><ul><li>落地后带来哪些影响</li><li>长远对社会哪些变化</li></ul></li><li><p>实践过程</p><ul><li>何时开始</li><li>经历哪些阶段</li><li>取得了哪些成就</li></ul></li><li><p>创新意义</p><ul><li>创新点</li><li>带来的好处</li></ul></li><li><p>发展前景</p><ul><li>目前社会的发展趋势</li><li>国家的相关政策</li><li>项目所处的行业现状及未来动态</li></ul></li><li><p>团队协作</p><ul><li><p>团队结构</p></li><li><p>教育背景</p></li><li><p>分工合作</p></li></ul></li></ul><p>项目介绍材料：<code>20页  PPT（转PDF）</code></p><p>其他相关证明材料：大创材料、融资、发明专利、目前取得的成果</p><h2 id="好项目"><a href="#好项目" class="headerlink" title="好项目"></a>好项目</h2><ul><li>创新性——从0到1</li><li>商业性——可落地</li><li>团队性——<code>人才</code></li></ul><h2 id="标题特点（去找往年资料）"><a href="#标题特点（去找往年资料）" class="headerlink" title="标题特点（去找往年资料）"></a>标题特点（去找往年资料）</h2><h2 id="PPT逻辑结构"><a href="#PPT逻辑结构" class="headerlink" title="PPT逻辑结构"></a>PPT逻辑结构</h2><ul><li>项目介绍</li><li>项目背景</li><li>市场规模</li><li>痛点分析</li><li>解决方案</li><li>项目</li><li>竞争分析</li><li>商业模式</li><li>财务分析</li><li>团队介绍</li><li>现有成果</li><li>未来规划</li></ul><p>项目的核心：</p><ul><li><p>痛点（不宜过多）</p></li><li><p>需求（是否存在）</p></li><li><p>市场（大不大）</p></li><li><p>创新（竞争力）</p></li></ul><h2 id="案例"><a href="#案例" class="headerlink" title="案例"></a>案例</h2><p><code>PPT</code>：多放图片（加批注）</p><p>标题：主标题+副标题</p><p>客户是谁？卖给谁？</p><p>产品介绍：</p><p>基于独创的。。。。。等算法，结合。。。。。技术，解决。。。。痛点。</p><p>是一款。。。。（介绍产品）</p><p><code>用红色标出痛点</code></p><ul><li><p>项目背景：前景广阔，找政策资料</p><ul><li>第一页：政策背景</li><li>第二页：市场容量（数字）</li></ul></li><li><p>市场调研：</p><ul><li>现状</li><li>调研结果</li><li>得出痛点</li></ul></li><li><p>产品迭代（一代、二代、三代）</p></li><li><p>产品体验</p></li><li><p>解决方案</p><ul><li>如何解决（用图表体现）</li></ul></li><li><p>专利支撑</p></li><li><p>产品特点</p></li><li><p>产品性能</p></li><li><p>产品对比（优势用红色）</p></li><li><p>商业模式（4P）</p><ul><li>价格（群体能不能接受）</li><li>销售</li><li>渠道</li><li></li></ul></li><li><p>财务</p></li><li><p>品牌</p></li><li><p>团队</p><ul><li>团队成员</li><li>顾问团队</li></ul></li><li><p>融资计划</p></li><li><p>项目展望</p></li></ul><h2 id="商业计划书撰写"><a href="#商业计划书撰写" class="headerlink" title="商业计划书撰写"></a>商业计划书撰写</h2><ul><li><p><code>对真实商业世界建立充分认知</code></p><ul><li><p>知道行业格局</p></li><li><p>了解所有相关方的情况</p></li><li><p>了解客户和用户的差别</p></li><li><p>了解自己的能力</p></li></ul></li><li><p><code>紧扣商业逻辑</code></p><ul><li>明确商业模式</li><li>符合商业逻辑</li><li>突出核心价值</li><li>要差异化竞争</li></ul></li><li><p><code>反复琢磨修改讨论</code></p></li><li><p><code>项目追求小而精</code></p></li><li><p><code>从薄到厚，从厚到薄</code></p></li><li><p><code>字不如表，表不如图</code></p></li><li><p><code>采取分工，但要整体统稿</code></p></li></ul><h2 id="PPT制作"><a href="#PPT制作" class="headerlink" title="PPT制作"></a>PPT制作</h2><ul><li><p>政策好前景好</p></li><li><p>分析足够全面</p></li><li><p>令人明白信服感动</p></li><li><p>项目概要</p><ul><li>战略定位</li><li>市场概况</li><li>服务产品</li><li>营销推广</li><li>竞争优势</li><li>核心团队</li><li>运营现状</li><li>发展规划</li><li>融资金额</li></ul></li><li><p>分析行业背景及市场现状</p><ul><li>行业背景、市场发展空间</li><li>痛点、需求点、机会点</li><li>如何顺势而为</li></ul></li><li><p>PEST宏观环境</p></li><li><p>市场分析</p><ul><li><p>收据收集</p><ul><li>国家统计局</li><li>工商局</li><li>艾瑞</li><li>易观</li><li>中怡康</li></ul></li><li><p>数据清洗</p></li><li><p>数据分析</p></li></ul></li><li><p>市场特征</p><ul><li>导入期</li><li>成长期</li><li>成熟期</li><li>衰退期</li></ul><p><img src="tiaozhanbei.assets/image-20211030161500064-16356825366824.png" alt="image-20211030161500064"></p><p>​    市场验证：普遍    显性  高频 刚需</p></li></ul><h2 id="产品服务"><a href="#产品服务" class="headerlink" title="产品服务"></a>产品服务</h2><ul><li>提供的产品及服务（形态）是什么？</li><li>针对的目标客户有哪些主要的特征？</li><li>产品或服务解决的用户的核心需求是什么？</li><li>产品或服务具有哪些核心价值？</li></ul><table><thead><tr><th>我</th><th></th><th></th></tr></thead><tbody><tr><td>我</td><td></td><td></td></tr><tr><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td></tr></tbody></table><h2 id="团队"><a href="#团队" class="headerlink" title="团队"></a>团队</h2><ul><li><p>团队成员规模和成分股份比例</p></li><li><p>专业、特长、实践经验、所获奖项、个人资源</p></li><li><p>团队的核心优势、老师在团队中的角色</p></li><li><p>团队成员的从业经验、互补性、完整性</p><p>概况性精炼语言描绘团队的实力</p></li></ul><h2 id="财务和融资"><a href="#财务和融资" class="headerlink" title="财务和融资"></a>财务和融资</h2><ul><li>前一年、当年未来三年的财务收支及预估</li><li>融资计划，融资用途，资金分配方案</li><li>历史融资</li></ul>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>我的第一篇文章</title>
+      <link href="/2021/10/26/wo-de-di-yi-pian-wen-zhang/"/>
+      <url>/2021/10/26/wo-de-di-yi-pian-wen-zhang/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      
+    </entry>
+    
+    
+  
+  
+</search>
